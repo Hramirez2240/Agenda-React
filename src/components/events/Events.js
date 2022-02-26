@@ -26,7 +26,7 @@ const Events = () => {
   return (
     <Layout>
       <div className="text-center">
-        <Link className="ms-3 text-decoration-none" to={"new"}><button className="btn btn-primary" style={{background: "#1a304e", color: "white", border: "1px solid white", width: "300px", fontSize: "25px", padding: "10px"}}>Add Event</button></Link>
+        <Link className="ms-3 text-decoration-none" to={"new"}><button className="btn btn-primary initial">Add Event</button></Link>
       </div>
 
       <section style={{width: "100%"}} className="my-4 mx-auto row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">

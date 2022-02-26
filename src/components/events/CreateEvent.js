@@ -90,7 +90,7 @@ const NewEvent = () => {
         </div>
 
         <div className="form-group my-4">
-          <label htmlFor="startDate" className="fw-bold">Date</label>
+          <label htmlFor="date" className="fw-bold">Date</label>
           <input
             value={date}
             onChange={handleChange}

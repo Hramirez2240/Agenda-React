@@ -96,3 +96,9 @@ body{
 .shadow-lg.create-user{
   width: 1000px;
 }
+
+.btn.initial{
+  font-size: 17px;
+  width: 220px;
+  padding: 10px;
+}
