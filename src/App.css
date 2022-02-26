@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+
+body{
+  background-color: #0D192B;
+}
+
+.btn.btn-css{
+  width: 200px;
+  color: black;
+  background-color: white;
+  border: 2px solid #1a304e;
+}
+
+.btn.btn-css:hover{
+  background-color: #1a304e;
+  color: white;
+}
+
+.d-grid.center{
+  display: flex;
+  justify-content: center;
+}
+
+#btnEdit{
+  background: white;
+  color: #0d6efd;
+  border: 2px solid #0d6efd;
+}
+
+#btnEdit:hover{
+  background: #0d6efd;
+  color: white;
+}
+
+#btnDelete{
+  background: white;
+  color: #dc3545;
+  border: 2px solid #dc3545;
+}
+
+#btnDelete:hover{
+  background: #dc3545;
+  color: white;
+}
+
+#btnDelete, #btnEdit{
+  margin-top: 10px;
+}
+
+.form-container{
+  width: 600px;
+  margin: 0 auto;
+}
+
+.form-control.input-create{
+  width: 600px;
+}
+
+.shadow-lg.create-user{
+  width: 1000px;
+}
